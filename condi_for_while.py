@@ -274,4 +274,21 @@ while len(nombre) < 5 or len(contra) < 8:
         continue
     print(f"\t¡Registro realizado con éxito! \n\t su nombre de usuario es: {nombre}\n\t su contraseña es: {contra} ")
 
+Esta es la que envían como opinion del instructor.
+sin embargo pasa lo mismo que con el código 1
+
+while True:
+    nombre_usuario = input("Digite su nombre de usuario: ")
+    contraseña = input("Digite su contraseña: ")
+
+    if len(nombre_usuario) < 5:
+        print("El nombre de usuario debe tener al menos 5 caracteres.")
+        continue
+
+    if len(contraseña) < 8:
+        print("La contraseña debe tener al menos 8 caracteres.")
+        continue
+
+    print("¡Registro realizado con éxito!")
+    break
 """
